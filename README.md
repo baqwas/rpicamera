@@ -24,7 +24,7 @@ where
 | Parameter | Value | Default | Notes |
 |-----------|-------|---------|-------|
 | -o, --output | _filename_ | none | output filename |
-| -e, --encoding | type | | png, jpg, bmp, rgb, yuv420 |
+| -e, --encoding | _type_ | none | _type_= png, jpg, bmp, rgb, yuv420 |
 | -n, --nopreview |  |  | do not show preview |
 | -r, --raw | | | capture RAW data too |
 | --metering | average | centre | set the metering mode (_centre_, spot, average, custom) |
