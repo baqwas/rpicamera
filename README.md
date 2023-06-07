@@ -23,12 +23,13 @@ Permits files to be saved in a variety of popular formats. The encoding option (
 where
 | Parameter | Value | Default | Notes |
 |-----------|-------|---------|-------|
-| -o |
-| -e |
-| -n |
-| -r |
+| -o, --output | _filename_ | none | output filename |
+| -e, --encoding | type | | png, jpg, bmp, rgb, yuv420 |
+| -n, --nopreview |  |  | do not show preview |
+| -r, --raw | | | capture RAW data too |
 | --metering | average | centre | set the metering mode (_centre_, spot, average, custom) |
 | -v | 0 | 1 |  Set verbosity level, 0 is no output |
+| --roi | 0.2,0,25,0.9,0.5 | 0,0,1,1 | select a crop (region of interest) from the camera <x,y,w,h> |
 
 ## libcamera-vid
 
