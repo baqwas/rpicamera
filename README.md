@@ -41,4 +41,5 @@ where
 
 ## References
 [Raspberry Pi Documentation - libcamera](https://www.raspberrypi.com/documentation/computers/camera_software.html#libcamera-still)
+
 [The Picamera2 Library](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
